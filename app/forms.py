@@ -9,4 +9,3 @@ class UploadForm(FlaskForm):
     photo = FileField('Photo', validators=[FileRequired(),
         FileAllowed(['jpg', 'png', 'Images only!'])
     ])
-
